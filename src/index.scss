@@ -1,0 +1,36 @@
+// fonts
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"),
+    url("./fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Itim";
+  src: local("Itim"),
+    url("./fonts/Itim-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+// colors
+$primary:  #00704A;
+$secondary: white;
+$menu_selected:  #B37C43;
+$menu_X:  #949494;
+$menu_grey_1: #8B8B8B;
+$menu_grey_2: #535353;
+
+$breakpoint: 576px; //768px???
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+@media only screen and (min-width: $breakpoint){
+	body {
+    background-color: $primary;
+  }
+}
