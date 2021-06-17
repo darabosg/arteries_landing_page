@@ -6,18 +6,26 @@
 
 @media only screen and (min-width: $breakpoint) {
     .desktop_nav {
-        margin-right: 200px;
+        margin-right: 10vw;
         display: initial;
         ul {
             display: flex;
             li {
+                cursor: pointer;
                 list-style: none;
-                margin-right: 20px;
+                margin-left: 4vw;
                 color: $secondary;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.02em;
             }
         }
         .selected {
             color: $menu_selected;
+            font-weight: bold;
         }
 
         .selected::after {

@@ -1,7 +1,6 @@
 @import '../variables.scss';
 main {
     .content {
-
         margin-top: 4rem;
         text-align: center;
         .title {
@@ -36,6 +35,7 @@ main {
             line-height: 30px;
             letter-spacing: 0.05em;
             margin-top: 2rem;
+            cursor: pointer;
         }
     }
 
@@ -49,4 +49,55 @@ main {
     }
 }
 @media only screen and (min-width: $breakpoint) {
+    main {
+        display: flex;
+        .content {
+            margin-top: 5rem;
+            text-align: left;
+            margin-left: 10rem;
+            .title {
+                font-family: Itim;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+                letter-spacing: 0.02em;
+                margin-bottom: 1rem;
+            }
+            p {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 60px;
+                letter-spacing: 0.05em;
+                margin: 0;
+            }
+
+            button {
+                background-color: $primary;
+                color: $secondary;
+                border: none;
+                width: 263px;
+                height: 89px;
+                box-shadow: 20px 20px 40px #e5e5e5;
+                border-radius: 5px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 36px;
+                letter-spacing: 0.02em;
+            }
+        }
+
+        .frappe {
+            display: block;
+            width: 600px;
+            height: 600px;
+            position: relative;
+            transform: translate(-40px, 50px);
+            margin: auto;
+        }
+    }
 }
