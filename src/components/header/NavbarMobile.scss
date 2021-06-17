@@ -1,26 +1,59 @@
 @import '../../variables.scss';
 
 .mask {
-    .nav_mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.31);
+    .sidebar {
+        width: 75%;
+        height: 100vh;
+        background-color: $secondary;
+        float: right;
         .close {
+            width: 60px;
+            height: 60px;
+            float: right;
+            margin: 20px;
+
+            .close_line {
+                background-color: $menu_x;
+                width: 49px;
+                height: 5px;
+                border-radius: 3px;
+                position: relative;
+            }
             .close_line1 {
+                transform: rotate(41.58deg);
+                top: 20px;
             }
             .close_line2 {
+                transform: rotate(-41.58deg);
+                top: 15px;
             }
         }
-        nav{
-            ul{
+        .mobile_nav {
+            margin-top: 150px;
+            ul {
+                padding: 0;
+                text-align: center;
                 li {
-
+                    list-style: none;
+                    margin-bottom: 12px;
+                    padding:10px;
+                    font-size: 20px;
+                }
+                li:hover {
+                    background-color: $menu_selected;
                 }
                 .mobile_selected {
-
+                    color: white;
+                    background-color: $menu_selected;
+                    font-size: 20px;
                 }
             }
         }
     }
-}
-
-@media only screen and (min-width: $breakpoint) {
-    
 }

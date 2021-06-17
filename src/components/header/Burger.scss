@@ -1,14 +1,26 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
 .burger {
-    .burger_line {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
 
+    .burger_line {
+        border-radius: 3px;
+        background-color: $primary;
+        width: 49px;
+        height: 5px;
     }
     .burger_line_middle {
-        
+        width: 33px;
     }
 }
 
-@media only screen and (min-width: $breakpoint){
-
+@media only screen and (min-width: $breakpoint) {
+    .burger {
+        display: none;
+    }
 }

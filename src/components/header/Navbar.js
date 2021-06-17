@@ -1,10 +1,11 @@
 import React from 'react'
+import './Navbar.scss'
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="desktop_nav">
             <ul>
-                <li className="selected">Coffe</li>
+                <li className="selected">Coffee</li>
                 <li>Tea</li>
                 <li>Menu</li>
                 <li>About us</li>

@@ -5,9 +5,6 @@ import Burger from './Burger'
 import logo from '../../images/logo.svg'
 import NavbarMobile from './NavbarMobile'
 
-
-
-
 const Header = () => {
     const [mobileNavOpen, setMobileNavOpen] = useState(false)
 
