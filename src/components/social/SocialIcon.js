@@ -4,7 +4,9 @@ import './SocialIcon.scss'
 const SocialIcon = ({ platform }) => {
     return (
         <div className='social_circle'>
-            <img src={platform} alt={platform} />
+            <a href=''>
+                <img src={platform} alt={platform} />
+            </a>
         </div>
     )
 }

@@ -11,21 +11,26 @@
         ul {
             display: flex;
             li {
-                cursor: pointer;
                 list-style: none;
                 margin-left: 4vw;
-                color: $secondary;
-                font-family: Lato;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 20px;
-                line-height: 24px;
-                letter-spacing: 0.02em;
+
+                a { margin:0;
+                    color: $secondary;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.02em;
+                    text-decoration: none;
+                }
             }
         }
         .selected {
-            color: $menu_selected;
-            font-weight: bold;
+            a {
+                color: $menu_selected;
+                font-weight: bold;
+            }
         }
 
         .selected::after {
