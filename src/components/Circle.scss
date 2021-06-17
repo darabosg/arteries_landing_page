@@ -5,15 +5,23 @@
     width: 509px;
     height: 366px;
     border-radius: 50%;
-    position: fixed;
-    left: 0px;
+    position: absolute;
+    left: 50vw;
     bottom: -200px;
     z-index: -1;
-    margin: auto;
+    transform: translate(-50%, 0);
 }
 
 @media only screen and (min-width: $breakpoint) {
     .circle {
         background-color: $secondary;
+        width: 1497px;
+        height: 1497px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50vh;
+        left: -600px;
+        z-index: -1;
+        transform: translate(0, -50%);
     }
 }

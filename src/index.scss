@@ -4,12 +4,13 @@
 
 body {
   margin: 0;
-  // overflow: hidden;
+  overflow-x: hidden;
   background-color: $secondary;
 }
 
 @media only screen and (min-width: $breakpoint){
 	body {
+    overflow: hidden;
     background-color: $primary;
   }
 }
