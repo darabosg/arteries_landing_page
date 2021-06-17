@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+
+.mask {
+    .nav_mobile {
+        .close {
+            .close_line1 {
+            }
+            .close_line2 {
+            }
+        }
+        nav{
+            ul{
+                li {
+
+                }
+                .mobile_selected {
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $breakpoint) {
+}

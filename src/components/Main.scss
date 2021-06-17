@@ -1,0 +1,23 @@
+@import "../variables.scss";
+
+.content {
+    .title {
+        // font-family: "Lato";
+    }
+    p {
+    }
+
+    button {
+        background-color: $primary;
+        border: none;
+    }
+
+}
+
+.frappe {
+
+}
+
+@media only screen and (min-width: $breakpoint){
+
+}
