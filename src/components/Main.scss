@@ -1,23 +1,52 @@
-@import "../variables.scss";
+@import '../variables.scss';
+main {
+    .content {
 
-.content {
-    .title {
-        // font-family: "Lato";
-    }
-    p {
+        margin-top: 4rem;
+        text-align: center;
+        .title {
+            font-family: Itim;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 42px;
+            letter-spacing: 0.02em;
+            margin-bottom: 3rem;
+        }
+        p {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+        }
+
+        button {
+            background-color: $primary;
+            color: $secondary;
+            border: none;
+            width: 166px;
+            height: 75px;
+            border-radius: 5px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            margin-top: 2rem;
+        }
     }
 
-    button {
-        background-color: $primary;
-        border: none;
+    .frappe {
+        display: block;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        transform: rotate(-30deg) translateX(30px);
+        margin: auto;
     }
-
 }
-
-.frappe {
-
-}
-
-@media only screen and (min-width: $breakpoint){
-
+@media only screen and (min-width: $breakpoint) {
 }
