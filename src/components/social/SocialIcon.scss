@@ -1,7 +1,13 @@
+@import '../../variables.scss';
+
 .social_circle {
+    background-color: $secondary;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 
-}
-
-.social_icon {
-    
 }

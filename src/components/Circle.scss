@@ -1,0 +1,19 @@
+@import '../variables.scss';
+
+.circle {
+    background-color: $primary;
+    width: 509px;
+    height: 366px;
+    border-radius: 50%;
+    position: fixed;
+    left: 0px;
+    bottom: -200px;
+    z-index: -1;
+    margin: auto;
+}
+
+@media only screen and (min-width: $breakpoint) {
+    .circle {
+        background-color: $secondary;
+    }
+}

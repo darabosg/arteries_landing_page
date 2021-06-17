@@ -1,11 +1,15 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
 .social_icons {
-
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
 }
 
-@media only screen and (min-width: $breakpoint){
-.social_icons {
-
-}
+@media only screen and (min-width: $breakpoint) {
+    .social_icons {
+        display: initial;
+    }
 }

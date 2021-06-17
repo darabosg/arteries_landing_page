@@ -1,25 +1,11 @@
 @import "./variables.scss";
-
-// fonts
-@font-face {
-  font-family: "Lato";
-  src: local("Lato"),
-    url("./fonts/Lato-Regular.ttf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Itim";
-  src: local("Itim"),
-    url("./fonts/Itim-Regular.ttf") format("truetype");
-  font-weight: normal;
-}
+@import "./fonts.scss";
 
 
 body {
   margin: 0;
   // overflow: hidden;
-  background-color: white;
+  background-color: $secondary;
 }
 
 @media only screen and (min-width: $breakpoint){

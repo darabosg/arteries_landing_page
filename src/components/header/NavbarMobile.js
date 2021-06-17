@@ -1,11 +1,14 @@
 import React from 'react'
 import './NavbarMobile.scss'
 
-const NavbarMobile = () => {
+const NavbarMobile = ({ setMobileNavOpen }) => {
+
+    const closeNav = () => setMobileNavOpen(false)
+
     return (
         <div className='mask'>
             <div className='nav_mobile'>
-                <div className='close'>
+                <div className='close' onClick={closeNav}>
                     <div className='close_line1'></div>
                     <div className='close_line2'></div>
                 </div>
