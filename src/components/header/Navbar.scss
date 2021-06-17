@@ -1,27 +1,31 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
 .desktop_nav {
     display: none;
-    ul {
-        li {
-
-        }
-    }
-    .selected {
-
-    }
 }
 
-@media only screen and (min-width: $breakpoint){
-.desktop_nav {
-    display: initial;
-    ul {
-        li {
+@media only screen and (min-width: $breakpoint) {
+    .desktop_nav {
+        margin-right: 200px;
+        display: initial;
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin-right: 20px;
+                color: $secondary;
+            }
+        }
+        .selected {
+            color: $menu_selected;
+        }
 
+        .selected::after {
+            content: '';
+            display: block;
+            background-color: $primary;
+            width: 65px;
+            height: 5px;
         }
     }
-    .selected {
-
-    }
-}
 }
