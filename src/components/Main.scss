@@ -51,8 +51,8 @@ main {
 @media only screen and (min-width: $breakpoint) {
     main {
         display: flex;
+        align-items: center;
         .content {
-            margin-top: 5rem;
             text-align: left;
             margin-left: 10rem;
             .title {
@@ -63,6 +63,7 @@ main {
                 line-height: 60px;
                 letter-spacing: 0.02em;
                 margin-bottom: 1rem;
+                margin-top: 0px;
             }
             p {
                 font-family: Lato;

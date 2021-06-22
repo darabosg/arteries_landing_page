@@ -15,19 +15,19 @@ const NavbarMobile = ({ setMobileNavOpen }) => {
                 <nav className='mobile_nav'>
                     <ul>
                         <li className='mobile_selected'>
-                            <a href=''>Coffee</a>
+                            <a href='_blank'>Coffee</a>
                         </li>
                         <li>
-                            <a href=''>Tea</a>
+                            <a href='_blank'>Tea</a>
                         </li>
                         <li>
-                            <a href=''>Menu</a>
+                            <a href='_blank'>Menu</a>
                         </li>
                         <li>
-                            <a href=''>About us</a>
+                            <a href='_blank'>About us</a>
                         </li>
                         <li>
-                            <a href=''>Card</a>
+                            <a href='_blank'>Card</a>
                         </li>
                     </ul>
                 </nav>

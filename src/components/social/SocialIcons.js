@@ -7,10 +7,10 @@ import './SocialIcons.scss'
 
 const SocialIcons = () => {
     return (
-        <div className="social_icons">
-            <SocialIcon platform={facebook}/>
-            <SocialIcon platform={instagram}/>
-            <SocialIcon platform={twitter}/>
+        <div className='social_icons'>
+            <SocialIcon platform={facebook} />
+            <SocialIcon platform={instagram} />
+            <SocialIcon platform={twitter} />
         </div>
     )
 }

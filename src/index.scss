@@ -1,16 +1,15 @@
-@import "./variables.scss";
-@import "./fonts.scss";
-
+@import './variables.scss';
+@import './fonts.scss';
 
 body {
-  margin: 0;
-  overflow: hidden;
-  background-color: $secondary;
+    margin: 0;
+    overflow: hidden;
+    background-color: $secondary;
 }
 
-@media only screen and (min-width: $breakpoint){
-	body {
-    overflow: hidden;
-    background-color: $primary;
-  }
+@media only screen and (min-width: $breakpoint) {
+    body {
+        overflow: hidden;
+        background-color: $primary;
+    }
 }

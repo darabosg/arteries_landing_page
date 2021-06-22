@@ -2,7 +2,6 @@ import React from 'react'
 import './Burger.scss'
 
 const Burger = ({ setMobileNavOpen }) => {
-
     const openNav = () => setMobileNavOpen(true)
 
     return (

@@ -6,7 +6,7 @@
 
 @media only screen and (min-width: $breakpoint) {
     .desktop_nav {
-        margin-right: 10vw;
+        margin-right: 6vw;
         display: initial;
         ul {
             display: flex;
@@ -14,7 +14,8 @@
                 list-style: none;
                 margin-left: 4vw;
 
-                a { margin:0;
+                a {
+                    margin: 0;
                     color: $secondary;
                     font-family: Lato;
                     font-style: normal;

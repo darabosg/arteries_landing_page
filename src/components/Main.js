@@ -17,7 +17,7 @@ const Main = () => {
                 </p>
                 <button>Learn More</button>
             </div>
-            <img className="frappe" src={frappe} alt='frappe' />
+            <img className='frappe' src={frappe} alt='frappe' />
         </main>
     )
 }
